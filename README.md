@@ -10,7 +10,7 @@ This repository contains code that I have used to make a Fashion GAN model by fo
 6. tensorflow_datasets
 
 ## Results:
-<img alt= "Graph of g_loss and d_loss" src="https://github.com/ShauryaDevPathak/GAN/blob/main/Images/output_graph.png?raw=true" width=50 height=50>
+<img alt= "Graph of g_loss and d_loss" src="https://github.com/ShauryaDevPathak/GAN/blob/main/Images/output_graph.png?raw=true" width=100 height=100>
 g_loss = The generator loss is calculated from the discriminator’s classification – generator gets rewarded if it successfully fools the discriminator, and gets penalized otherwise.
 
 d_loss = It penalizes itself for misclassifying a real instance as fake, or a fake instance (created by the  generator) as real, by maximizing the below function.
